@@ -1,0 +1,134 @@
+.heading {
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.heading span {
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.about_sec {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+}
+
+.about_img {
+    width: 50%;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 5px -15px rgba(0, 0, 3, 0.5rem);
+    box-shadow: 0 5px 24px #403232;
+    padding: 1%;
+}
+
+.about_para {
+    text-align: center;
+    font-family: 'Gwendolyn', cursive;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: -2%;
+}
+.our_menu{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+}
+.kitchen_expert{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.our_services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.contact{
+    margin: auto;
+    margin-left: 8%;
+}
+.contactForm {
+    padding: 81px -30px;
+    background: #fff;
+    box-shadow: 0 15px 50px grey;
+    max-width: 500px;
+    margin-top: 50px;
+}
+.contactForm h3 {
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.contactForm .inputBox input, .contactForm .inputBox {
+    width: 100%;
+    /* border: 1px solid #555; */
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactForm .inputBox input[type="submit"] {
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100%;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    letter-spacing: 5px;
+}
+.contact {
+    background: url('https://source.unsplash.com/800x400/?master-chef,cooking');
+    background-size: cover;
+}
+.footer {
+    background-color: rgb(26, 27, 44);
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    padding: 2rem 0;
+}
+.footer__title {
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+.footer__social {
+    margin-bottom: 4px;
+}
+.footer__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 2px;
+}
+footer p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+}
